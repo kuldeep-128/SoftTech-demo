@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!---- Bootstrap link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="images/favicon.ico" />
+  <title>pactice</title>
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team-section">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <!--<div class="text-end">
+          <button type="button" class="btn btn-outline-light me-2">Login</button>
+          <button type="button" class="btn btn-warning">Sign-up</button>
+        </div>-->
+      </div>
+      <a class="navbar-brand" href="#">SoftTech</a>
+    </div>
+  </nav>
+  <!-- HERO SECTION-->
+
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5 hero-section">
+    <div class="col-10 col-sm-8 col-lg-6 hero-img" >
+      <img src="./images/team-working-2.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+        height="500" loading="lazy" />
+    </div>
+    <div class="col-lg-6 hero-title">
+      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+        We Make Things Easier For You
+      </h1>
+      <p class="lead">
+        We at SoftTech helps you by doing hard and lendy programming work by
+        building software that helps your business grow ,saving your presious
+        time and money.
+      </p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="rv60bb">
+          Srevices
+        </button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4" fdprocessedid="4nfvzo">
+          Contact
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!--FEATURES SECTION-->
+  <div id="services">
+    <div class="services-title">
+      <h2>What we can do for you</h2>
+    </div>
+    <div class="container-fluid row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col-lg-4">
+        <div class="services-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+            class="bi bi-file-earmark-code-fill" viewBox="0 0 16 16">
+            <path
+              d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM6.646 7.646a.5.5 0 1 1 .708.708L5.707 10l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0 2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 10 8.646 8.354a.5.5 0 1 1 .708-.708z" />
+          </svg>
+          <div class="services-icon-title">
+            <h3 class="fs-2 text-body-emphasis">Web Development</h3>
+          </div>
+        </div>
+        <div class="card-text">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+            quos nam autem reiciendis eius voluptatem.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="services-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bug-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M4.978.855a.5.5 0 1 0-.956.29l.41 1.352A4.985 4.985 0 0 0 3 6h10a4.985 4.985 0 0 0-1.432-3.503l.41-1.352a.5.5 0 1 0-.956-.29l-.291.956A4.978 4.978 0 0 0 8 1a4.979 4.979 0 0 0-2.731.811l-.29-.956z" />
+            <path
+              d="M13 6v1H8.5v8.975A5 5 0 0 0 13 11h.5a.5.5 0 0 1 .5.5v.5a.5.5 0 1 0 1 0v-.5a1.5 1.5 0 0 0-1.5-1.5H13V9h1.5a.5.5 0 0 0 0-1H13V7h.5A1.5 1.5 0 0 0 15 5.5V5a.5.5 0 0 0-1 0v.5a.5.5 0 0 1-.5.5H13zm-5.5 9.975V7H3V6h-.5a.5.5 0 0 1-.5-.5V5a.5.5 0 0 0-1 0v.5A1.5 1.5 0 0 0 2.5 7H3v1H1.5a.5.5 0 0 0 0 1H3v1h-.5A1.5 1.5 0 0 0 1 11.5v.5a.5.5 0 1 0 1 0v-.5a.5.5 0 0 1 .5-.5H3a5 5 0 0 0 4.5 4.975z" />
+          </svg>
+          <div class="services-icon-title">
+            <h3 class="fs-2 text-body-emphasis">Debugging</h3>
+          </div>
+        </div>
+        <div class="card-text">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+            quos nam autem reiciendis eius voluptatem.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="services-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-database-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M3.904 1.777C4.978 1.289 6.427 1 8 1s3.022.289 4.096.777C13.125 2.245 14 2.993 14 4s-.875 1.755-1.904 2.223C11.022 6.711 9.573 7 8 7s-3.022-.289-4.096-.777C2.875 5.755 2 5.007 2 4s.875-1.755 1.904-2.223Z" />
+            <path
+              d="M2 6.161V7c0 1.007.875 1.755 1.904 2.223C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777C13.125 8.755 14 8.007 14 7v-.839c-.457.432-1.004.751-1.49.972C11.278 7.693 9.682 8 8 8s-3.278-.307-4.51-.867c-.486-.22-1.033-.54-1.49-.972Z" />
+            <path
+              d="M2 9.161V10c0 1.007.875 1.755 1.904 2.223C4.978 12.711 6.427 13 8 13s3.022-.289 4.096-.777C13.125 11.755 14 11.007 14 10v-.839c-.457.432-1.004.751-1.49.972-1.232.56-2.828.867-4.51.867s-3.278-.307-4.51-.867c-.486-.22-1.033-.54-1.49-.972Z" />
+            <path
+              d="M2 12.161V13c0 1.007.875 1.755 1.904 2.223C4.978 15.711 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13v-.839c-.457.432-1.004.751-1.49.972-1.232.56-2.828.867-4.51.867s-3.278-.307-4.51-.867c-.486-.22-1.033-.54-1.49-.972Z" />
+          </svg>
+          <div class="services-icon-title">
+            <h3 class="fs-2 text-body-emphasis">DataBase Managment</h3>
+          </div>
+
+        </div>
+        <div class="card-text">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+            quos nam autem reiciendis eius voluptatem.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="services-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-app"
+            viewBox="0 0 16 16">
+            <path
+              d="M11 2a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h6zM5 1a4 4 0 0 0-4 4v6a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4V5a4 4 0 0 0-4-4H5z" />
+          </svg>
+          <div class="services-icon-title">
+            <h3 class="fs-2 text-body-emphasis">App Development</h3>
+          </div>
+        </div>
+        <div class="card-text">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+            quos nam autem reiciendis eius voluptatem.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="services-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-badge-ad-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M11.35 8.337c0-.699-.42-1.138-1.001-1.138-.584 0-.954.444-.954 1.239v.453c0 .8.374 1.248.972 1.248.588 0 .984-.44.984-1.2v-.602zm-5.413.237-.734-2.426H5.15l-.734 2.426h1.52z" />
+            <path
+              d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm6.209 6.32c0-1.28.694-2.044 1.753-2.044.655 0 1.156.294 1.336.769h.053v-2.36h1.16V11h-1.138v-.747h-.057c-.145.474-.69.804-1.367.804-1.055 0-1.74-.764-1.74-2.043v-.695zm-4.04 1.138L3.7 11H2.5l2.013-5.999H5.9L7.905 11H6.644l-.47-1.542H4.17z" />
+          </svg>
+          <div class="services-icon-title">
+            <h3 class="fs-2 text-body-emphasis">Degital Marketing</h3>
+          </div>
+        </div>
+        <div class="card-text">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+            quos nam autem reiciendis eius voluptatem.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="services-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-lock-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+          </svg>
+          <div class="services-icon-title">
+            <h3 class="fs-2 text-body-emphasis">Cyber Security</h3>
+          </div>
+        </div>
+        <div class="card-text">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+            quos nam autem reiciendis eius voluptatem.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--Team section-->
+  <div id="team-section">
+    <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="80" height="80" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+        </svg>
+        <h2 class="fw-normal">Heading</h2>
+        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first
+          column.</p>
+        <!--<p><a class="btn btn-secondary" href="#">View details »</a></p> -->
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="80" height="80" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+        </svg>
+        <h2 class="fw-normal">Heading</h2>
+        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.
+        </p>
+        <!--<p><a class="btn btn-secondary" href="#">View details »</a></p> -->
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="80" height="80" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+        </svg>
+        <h2 class="fw-normal">Heading</h2>
+        <p>And lastly this, the third column of representative placeholder content.</p>
+        <!--<p><a class="btn btn-secondary" href="#">View details »</a></p> -->
+      </div><!-- /.col-lg-4 -->
+    </div>
+  </div>
+
+  <!---- Contact section ----->
+
+  <div id="contact">
+    <div class="contact-containers">
+      <h2>Get in touch</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+        voluptatum excepturi hic corporis vitae molestias dolor quod
+        voluptatibus omnis repudiandae non recusandae sed, commodi quasi eos
+        placeat ullam nisi? At?
+      </p>
+
+    </div>
+    <div class="contact-containers">
+
+      <form action="@mailto:kunalkumar.0301@gmail.com">
+        <input class="input-box" type="text" placeholder="name" />
+        <input class="input-box" type="email" name="email" id="" placeholder="email" /><br />
+        <input class="input-box" type="text" placeholder="subject" /> <br />
+        <textarea class="textarea" name="msg" id="" cols="40" rows="4" placeholder="message"></textarea><br />
+        <button type="button" class="btn btn-primary btn-lg">Send</button>
+      </form>
+
+    </div>
+  </div>
+
+
+  <!--------Footer Section------->
+  <div id="Footer">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><img class="footer-icon"
+              src="./svg/instagram.svg" alt="instagram icon"></a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><img class="footer-icon"
+              src="./svg/facebook.svg" alt="instagram icon"></a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><img class="footer-icon"
+              src="./svg/linkedin.svg" alt="instagram icon"></a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><img class="footer-icon"
+              src="./svg/twitter.svg" alt="instagram icon"></a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
+    </footer>
+  </div>
+
+  <!-- Bootstrap JS LINK-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <!-- <script src="javascript/index.js"></script> -->
+</body>
+
+</html>

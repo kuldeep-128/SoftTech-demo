@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;700;900&family=Open+Sans:wght@400;500&family=Ubuntu:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item{
+  margin: 0 10px;
+}
+.navbar-brand{
+  font-size: 20px;
+}
+
+.hero-section{
+  width: 100vw;
+  height: 95vh;
+  
+}
+.hero-title{
+  padding-left: 50px;
+}
+
+.col{
+  width: 100vw;
+}
+
+.c1{
+  width:500px;
+}
+.card{
+  display: flex;
+  
+}
+.card-img{
+  width: 50px;
+}
+
+/** services section**/
+#services{
+  padding: 100px 0;
+}
+
+.services-title > h2 {
+  font-size: 3rem;
+  padding: 30px  30px;
+}
+.services-icon{
+  margin: 20px 0;
+  padding-left: 30px;
+}
+
+.services-icon-title{
+  margin-top:10px ;
+}
+
+.container-fluid{
+  display: flex;
+}
+
+.card-text > p{
+  padding-left: 30px;
+}
+/*** team section***/
+
+#team-section{
+  width: 90vw;
+  padding: 100px 0 80px 30px;
+  text-align: center;
+}
+
+/******* contact section********/
+#contact{
+  display: flex;
+}
+
+
+.contact-containers{
+  text-align: left;
+  margin:50px 80px 50px 30px;
+}
+
+.input-box{
+  margin-bottom: 15px;
+  width: 300px;
+  height: 30px;
+}
+
+.textarea{
+  margin-bottom: 15px;
+}
+
+
+
+
+/****footer section**/
+.footer-icon{
+  height: 20px;
+}
+
+
+
+@media(max-width:500px){
+
+
+
+  #contact{
+    display: block;
+  }
+  .contact-containers{
+    padding: 0 0 0 50px;
+    align-items: center;
+    text-align: center;
+  }
+}
